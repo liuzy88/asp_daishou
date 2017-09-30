@@ -35,7 +35,7 @@ router.all('/jlwt', function(req, res, next) {
 		cvn2: '',
 		expired: ''
 	}, function(ret) {
-		res.json(ret)
+		res.end(ret)
 	})
 })
 
